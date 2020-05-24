@@ -24,7 +24,7 @@ var lorum = (function() {
 
     function generate(withInitSentence) {
         var deferred = $.Deferred();
-        var url = "/generate/";
+        var url = "http://www.lorumipse.hu/generate/";
         if (withInitSentence) {
             url += "init/";
         }
